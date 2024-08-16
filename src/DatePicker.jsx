@@ -281,10 +281,16 @@ export default function DatePicker() {
   function submitClick() {
     const first = date1 < date2 ? date1 : date2;
     const second = date1 < date2 ? date2 : date1;
-    const f = first.toString();
-    const s = second.toString();
+    const f = first;
+    const s = second;
     // dispatch(transactionActions.pushDuration({ first: f, second: s }));
-    alert(`Selected Time Period is ${f} ${s}`);
+    alert(
+      `Selected Time Period is: ${f.getDate()}/${
+        f.getMonth() + 1
+      }/${f.getFullYear()} to ${s.getDate()}/${
+        s.getMonth() + 1
+      }/${s.getFullYear()}`
+    );
     setPin1(0);
     setPin2(0);
     setDate1(null);
