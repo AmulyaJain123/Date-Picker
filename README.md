@@ -13,6 +13,7 @@ With its intuitive interface and flexible configuration, this date picker can be
 * Tailwind
 
 ## Looks like this:
-![Reference](https://github.com/user-attachments/assets/2bcc2310-ffe4-493f-8830-d50dce132924)
+![Reference](https://github.com/user-attachments/assets/a6fa08f3-2234-4f38-9ace-87f88694fb88)
+
 
 Feel Free to use and have Fun!! 🙌  Upvote if found useful 😊
